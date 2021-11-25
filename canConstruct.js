@@ -13,7 +13,6 @@ const canConstruct = (target, wordBank) => {
   		if(target.indexOf(word) === 0){
       
       	const suffix =  target.slice(word.length);
-        console.log(suffix);
         if (canConstruct(suffix,wordBank) === true) return true;
       }
   }
