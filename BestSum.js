@@ -31,4 +31,4 @@ for(let num of numbers){
 return shortestComb;
 };
 
-console.log(baseSum(10, [5,3,4,7,25]));
+console.log(bestSum(10, [5,3,4,7,25]));
